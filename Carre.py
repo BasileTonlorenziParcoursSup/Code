@@ -3,7 +3,6 @@ from random import *
 from kandinsky import *
  #Programme adapté à la calculatrice Numworks
  #Ce programme est juste esthétique
- #Les variables nommés sX signifie que c'est une "sauvegarde" de X
 sx = 160
 sy = 110
 y = 0
@@ -44,8 +43,8 @@ while True:
     up_y += 1
     nb += 1
   if y >= 222:
-    sr += randint(0,2)
-    sg += randint(0,2)
-    sb += randint(0,2)
+    sr += randint(-2,2)
+    sg += randint(-2,2)
+    sb += randint(-2,2)
     up_x = 0
     up_y = 0
