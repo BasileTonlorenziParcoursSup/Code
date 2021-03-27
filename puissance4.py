@@ -26,7 +26,7 @@ for i in range(0,11):
 x = 5
 y = 0
 
-#Le nom n'est pas très parlant mais cette fonction permet de faire chuté les pièces
+#Le nom n'est pas très parlant mais cette fonction permet de faire chuté les pièces (le nom vient d'une typo sur le nom d'un ami)
 def harien(x,k,j,c):
   y = 28
   carre(x,y,c)
